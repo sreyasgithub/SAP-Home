@@ -12,16 +12,16 @@ const BannerStyles = (t) => ({
     backgroundPosition: "bottom",
     backgroundSize: "100%",
     [t?.breakpoints?.down("lg")]: {
-      height: "650px",
+      height: "800px",
     },
     [t?.breakpoints?.down("md")]: {
       height: "530px",
     },
     [t?.breakpoints?.down("sm")]: {
-      height: "400px",
+      height: "500px",
     },
     [t?.breakpoints?.down("xs")]: {
-      height: "300px",
+      height: "400px",
     },
   },
   text: {
